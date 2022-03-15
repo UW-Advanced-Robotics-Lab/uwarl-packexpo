@@ -1,0 +1,6 @@
+geometry_msgs/Pose poseToolDes
+geometry_msgs/Pose poseWamCur
+float32[7] jointsCur
+---
+float32[7] jointsSolved
+bool success
