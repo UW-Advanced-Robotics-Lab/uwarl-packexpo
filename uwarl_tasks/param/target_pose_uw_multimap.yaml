@@ -1,0 +1,24 @@
+# Target poses for summit: door_button, Elev_call, Elev_push, Robohub
+# at the door of the corridor from the lab to the elevator
+num_of_nav_targets: 4
+
+# target 0: at corridor door button, map0
+nav_target_0:
+  position: [-19.15664, -24.40677, 0.0]
+  orientation: [0.0, 0.0, -0.91687, 0.39918]
+
+# target 1: Elevator front, map0
+nav_target_1:
+  position: [-24.4388, -23.06376, 0.0]
+  orientation: [0.0, 0.0, 0.53986, 0.84175]
+
+# target 2: Elevator inside, map0
+nav_target_2:
+  position: [-21.4726, -23.0093, 0.0]
+  orientation: [0.0, 0.0, -0.88221, 0.47086]
+
+# target 3: RoboHub front, map1
+nav_target_3:
+  position: [0.83, -17.63, 0.0]
+  orientation: [0.0, 0.0, 0.710487938398, 0.703709378501]
+ 

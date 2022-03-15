@@ -1,0 +1,6 @@
+<launch>
+  <rosparam file="$(find uwarl_tasks)/param/target_pose.yaml" command="load" />
+  
+  <!-- service_core -->
+  <node pkg="uwarl_tasks" type="service_core_UWdemo" name="service_core_UWdemo" output="screen" />
+</launch>

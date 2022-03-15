@@ -1,0 +1,24 @@
+# Target location for placing objects: obj1_tableA, obj2_tableA, obj3_tableA, on the rail, knob
+# whenever the cameras move, those values need to be measured and stored here.
+# camera 1 = table A
+place_Table_A_obj1_wrt_cam1:
+  position: [0.334538221359, -0.174093872309, 0.789370715618]
+  orientation: [0.691929363309, -0.228975099672, 0.571022373692, -0.377806311044]
+ 
+place_Table_A_obj2_wrt_cam1:
+  position: [0.234455883503, 0.0985716506839, 0.738359630108]
+  orientation: [0.748549470391, -0.200173908981,0.483414886462, -0.407325599598]
+
+place_Table_A_obj3_wrt_cam1:
+  position: [0.380867600441,-0.233380645514, 1.01154768467]
+  orientation: [0.689932991956, -0.241346055647, 0.564329910788, -0.383765944067]
+ 
+# camera_2 = table B
+place_Rail_obj_wrt_cam2:
+  position: [0.362052470446, 0.16657884419, 0.865706562996]
+  orientation: [0.804898508863,-0.179720215573,0.381925172916,-0.417099744471]
+
+pose_Knob_wrt_cam2:
+  position: [0.339176177979, -0.284296184778, 0.994480788708]
+  orientation: [-0.538294759375, 0.460667174311, 0.536172148744, 0.458850665744]
+

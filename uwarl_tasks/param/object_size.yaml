@@ -1,0 +1,13 @@
+# dimension of the objects
+# obj1: pringles
+obj1_height_diameter:
+  dimension: [0.40, 0.06]
+
+# obj2: tomato can
+obj2_height_diameter:
+  dimension: [0.15, 0.06]
+
+# obj3: TBD
+obj3_height_diameter:
+  dimension: [0.40, 0.06]
+

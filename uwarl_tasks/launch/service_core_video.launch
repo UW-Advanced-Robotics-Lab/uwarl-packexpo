@@ -1,0 +1,7 @@
+<launch>
+  <rosparam file="$(find uwarl_tasks)/param/target_pose.yaml" command="load" />
+  <rosparam file="$(find uwarl_tasks)/param/pose_viewed_by_cam.yaml" command="load" />
+
+  <!-- service_core -->
+  <node pkg="uwarl_tasks" type="service_core_expo_video" name="service_core_expo_video" output="screen" />
+</launch>

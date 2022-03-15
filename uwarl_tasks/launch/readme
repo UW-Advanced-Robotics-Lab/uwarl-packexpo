@@ -1,0 +1,10 @@
+[Files in this folder]
+
+1.expo_demo.launch: used for Pack EXPO demo
+ - including camera setup and service_core
+
+2.service_core.launch: the core launch file for sequential operation, used for Pack EXPO demo
+ - for specific applications, it should be modified (i.e., which ROS nodes to be launched) 
+
+3.service_core_uw_multimap.launch: used for the on-campus demo for multi floor operation
+ - modified from the above "service_core.launch" with different ROS node

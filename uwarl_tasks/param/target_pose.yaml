@@ -1,0 +1,37 @@
+# Target poses for summit: tableA, tableB, knob
+tableA_pose_summit:
+  position: [-1.3564, -10.2925, 0.0]
+  orientation: [0.0, 0.0, -0.65586235009, 0.755120313902]
+
+tableB_pose_summit:
+  position: [2.1, -6.32, 0.0]
+  orientation: [0.0, 0.0, 0.477903635723, 0.878741226936]
+
+knob_pose_summit:
+  position: [1.64, -7.67, 0.0]
+  orientation: [0.0, 0.0, -0.505295103215, 0.862946614031]
+
+# Target poses for WAM: relative? absolute? to be determined
+bottleA_pose_WAM:
+  position: [4.0, 2.3, 0.0]
+  orientation: [0.0, 0.0, 0.788695434872, 0.614784117404]
+
+bottleB_pose_WAM:
+  position: [0.198088169098, -2.80627608299, 0.0]
+  orientation: [0.0, 0.0, 0.768605342232, 0.639723243202]
+
+
+# Back up: use in our lab
+#tableA_pose_summit:
+#  position: [-3.6, 2.9, 0.0]
+#  orientation: [0.0, 0.0, -0.63459254249, 0.772846883293]
+
+#tableB_pose_summit:
+#  position: [4.3, -2.3, 0.0]
+#  orientation: [0.0, 0.0, 0.788695434872, 0.614784117404]
+
+#knob_pose_summit:
+#  position: [4.0, 2.3, 0.0]
+#  orientation: [0.0, 0.0, 0.788695434872, 0.614784117404]
+
+

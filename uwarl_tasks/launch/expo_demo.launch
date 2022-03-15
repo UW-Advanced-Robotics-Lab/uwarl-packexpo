@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <!-- operating 2 zed cameras --> 
+  <include file="$(find zed_wrapper)/launch/zed_multi_cam_uw.launch">
+  </include>
+
+  <!-- aruco: marker-based object pose estimation -->
+  <include file="$(find aruco_ros)/launch/multi_cam_multi.launch">
+  </include>
+  
+  <!-- whycon: marker-based object position estimation -->
+  <include file="$(find whycon)/launch/whycon.launch">
+  </include>
+<!--
+  <include file="$(find uwarl_tasks)/launch/service_core.launch">
+  </include>
+-->
+</launch>

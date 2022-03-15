@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+  <rosparam file="$(find uwarl_tasks)/param/target_pose_uw_multimap.yaml" command="load" />
+  <rosparam file="$(find uwarl_tasks)/param/multimap_config.yaml" command="load" />
+
+  <!-- below two lines are not used in practice, but they are needed to run the code because they are imported into the code (service_core_uw_multimap.cpp) when being initialized-->.
+<!--  <rosparam file="$(find uwarl_tasks)/param/pose_viewed_by_cam.yaml" command="load" /> -->
+<!--  <rosparam file="$(find uwarl_tasks)/param/places_viewed_by_cam.yaml" command="load" /> -->
+
+  <!-- service_core -->
+  <node pkg="uwarl_tasks" type="service_core_uw_multimap" name="service_core_uw_multimap" output="screen" />
+</launch>

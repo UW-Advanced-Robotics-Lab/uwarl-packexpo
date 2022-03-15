@@ -1,0 +1,15 @@
+# Target poses for summit: tableA, tableB, knob
+desired_cam_pose_summit_Table_A:
+  position: [-0.880, -0.5347, 2.505]
+  orientation: [0.0, 0.0, -0.63459254249, 0.772846883293]
+
+desired_cam_pose_summit_Table_B:
+  position: [-0.540, -0.323, 2.840.0]
+  orientation: [0.0, 0.0, -0.63459254249, 0.772846883293]
+
+desired_cam_pose_summit_Knob:
+  position: [-0.540, -0.323, 2.840.0]
+  orientation: [0.0, 0.0, -0.63459254249, 0.772846883293]
+
+
+

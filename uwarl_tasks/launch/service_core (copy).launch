@@ -1,0 +1,8 @@
+<launch>
+  <rosparam file="$(find uwarl_tasks)/param/target_pose.yaml" command="load" />
+  <rosparam file="$(find uwarl_tasks)/param/pose_viewed_by_cam.yaml" command="load" />
+  <rosparam file="$(find uwarl_tasks)/param/places_viewed_by_cam.yaml" command="load" />
+
+  <!-- service_core -->
+  <node pkg="uwarl_tasks" type="service_core_expo" name="service_core_expo" output="screen" />
+</launch>

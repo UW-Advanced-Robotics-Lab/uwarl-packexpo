@@ -1,0 +1,6 @@
+1. target_pose.yaml : used for Pack EXPO Demo (Las Vegas, Sep 2019)
+
+2-1). target_pose_uw_multimap.yaml : used for on-campus demo for the multifloor operation (Sep 2021)
+2-2) multimap_config.yaml: used for on-campus demo for the multifloor operation 
+     - this is loaded in "service_core_uw_multimap.launch".
+     - this file is for setting the origins of two maps and initial pose in the second map.

@@ -1,0 +1,6 @@
+geometry_msgs/Pose poseKnobWrtWAMbyCAM
+float32[7] jointsCur
+int16 cycleKnob
+bool isRevDir
+---
+bool success
